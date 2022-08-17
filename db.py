@@ -1,6 +1,7 @@
 import cx_Oracle
 import os
 import pandas as pd
+cx_Oracle.init_oracle_client(lib_dir=r"C:\instantclient-basic-windows.x64-21.6.0.0.0dbru")
 LOCATION = r"C:\instantclient-basic-windows.x64-21.6.0.0.0dbru"
 os.environ["PATH"] = LOCATION + ";" + os.environ["PATH"]
 
