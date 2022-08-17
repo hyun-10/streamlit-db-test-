@@ -1,3 +1,2 @@
-
+cx_Oracle
 streamlit
-py -m pip install cx_Oracle
