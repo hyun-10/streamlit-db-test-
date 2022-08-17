@@ -1,5 +1,5 @@
 import cx_Oracle
-import os
+#import os
 import pandas as pd
 LOCATION = r"C:\instantclient_21_6"
 os.environ["PATH"] = LOCATION + ";" + os.environ["PATH"]
