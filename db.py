@@ -2,7 +2,7 @@ import cx_Oracle
 import os
 import pandas as pd
 LOCATION = r"C:\instantclient_21_6"
-os.environ["PATH"] = LOCATION + ";" + os.environ["PATH"]
+os.environ["PATH"] = LOCATION + ";" + os.environ["%ORACLE_HOME%"]
 
 OracleConnect = cx_Oracle.connect("data", "1234", "localhost:1521/xe")
 
